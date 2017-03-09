@@ -1,4 +1,7 @@
 {
+    // Use IntelliSense to learn about possible Node.js debug attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
         {
@@ -6,6 +9,11 @@
             "type": "node",
             "program": "${workspaceRoot}/tests.js",
             "stopOnEntry": true,
+            "args": [
+                "${workspaceRoot}/test/hasMinified.js",
+                "${workspaceRoot}/test/xmlAttr.js",
+                "${workspaceRoot}/test/folderHasFiles.js",
+            ],
             "runtimeExecutable": null,
             "env": {
                 "NODE_ENV": "test"
