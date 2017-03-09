@@ -1,0 +1,16 @@
+{
+  "name": "gulp-verify",
+  "version": "1.0.0",
+  "description": "verify build artifacts",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "glob": "^7.1.1",
+    "mocha": "^3.2.0",
+    "suffix": "^0.1.0"
+  }
+}

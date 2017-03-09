@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Unit tests",
+            "type": "node",
+            "program": "${workspaceRoot}/tests.js",
+            "stopOnEntry": true,
+            "runtimeExecutable": null,
+            "env": {
+                "NODE_ENV": "test"
+            }
+        }
+    ]
+}
