@@ -12,7 +12,7 @@
             "args": [
                 "${workspaceRoot}/test/hasMinified.js",
                 "${workspaceRoot}/test/xmlAttr.js",
-                "${workspaceRoot}/test/folderHasFiles.js",
+                "${workspaceRoot}/test/folderHasFiles.js"
             ],
             "runtimeExecutable": null,
             "env": {
